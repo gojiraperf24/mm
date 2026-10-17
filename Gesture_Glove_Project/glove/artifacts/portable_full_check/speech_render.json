@@ -1,0 +1,18 @@
+[
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\portable_full_check\\english.wav",
+    "frames": 41802,
+    "sample_rate": 22050,
+    "duration_seconds": 1.89578231292517
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\portable_full_check\\hindi.wav",
+    "frames": 44149,
+    "sample_rate": 22050,
+    "duration_seconds": 2.002222222222222
+  }
+]

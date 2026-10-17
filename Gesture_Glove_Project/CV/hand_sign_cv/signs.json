@@ -1,0 +1,18 @@
+{
+  "vocabulary_name": "demo_poses_v1_replace_with_glove_vocabulary",
+  "signs": {
+    "OPEN_PALM": "Palm toward camera, all five fingers straight and spread.",
+    "FIST": "Palm toward camera, four fingers curled and thumb across them.",
+    "THUMB_UP": "Closed fingers, thumb extended vertically upward.",
+    "THUMB_DOWN": "Closed fingers, thumb extended vertically downward.",
+    "INDEX_UP": "Palm toward camera, index straight up, other fingers and thumb folded.",
+    "V_SHAPE": "Palm toward camera, index and middle straight and spread, others folded.",
+    "THREE_FINGERS": "Index, middle and ring straight; little finger and thumb folded.",
+    "FOUR_FINGERS": "Four fingers straight and spread; thumb folded across palm.",
+    "L_SHAPE": "Index upward and thumb sideways, other three fingers folded.",
+    "PINCH_CIRCLE": "Thumb and index tips touching in a circle; other three fingers straight.",
+    "LITTLE_UP": "Only little finger straight upward; other fingers and thumb folded.",
+    "THUMB_LITTLE": "Thumb and little finger extended; other three fingers folded.",
+    "REST": "Visible relaxed, loosely curved hand; collect varied idle poses distinct from target signs."
+  }
+}

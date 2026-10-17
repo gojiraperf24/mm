@@ -1,0 +1,709 @@
+Processing esp32-usb (platform: espressif32@6.12.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 38 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- BluetoothSerial @ 2.0.0
+|-- Wire @ 2.0.0
+Building in release mode
+Building .pio\build\esp32-usb\bootloader.bin
+Archiving .pio\build\esp32-usb\lib726\libWire.a
+Archiving .pio\build\esp32-usb\lib83d\libSPI.a
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\esp32-usb\lib22b\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\esp32-usb\lib22b\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\esp32-usb\lib22b\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\esp32-usb\lib22b\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\esp32-usb\lib251\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\esp32-usb\lib1e5\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Compiling .pio\build\esp32-usb\libfe8\BluetoothSerial\BTAddress.cpp.o
+Compiling .pio\build\esp32-usb\libfe8\BluetoothSerial\BTAdvertisedDeviceSet.cpp.o
+Compiling .pio\build\esp32-usb\libfe8\BluetoothSerial\BTScanResultsSet.cpp.o
+Compiling .pio\build\esp32-usb\libfe8\BluetoothSerial\BluetoothSerial.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\HardwareSerial.cpp.o
+Archiving .pio\build\esp32-usb\lib22b\libAdafruit BusIO.a
+Compiling .pio\build\esp32-usb\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\IPv6Address.cpp.o
+Archiving .pio\build\esp32-usb\lib251\libAdafruit Unified Sensor.a
+Compiling .pio\build\esp32-usb\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-adc.c.o
+Archiving .pio\build\esp32-usb\lib1e5\libAdafruit MPU6050.a
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Archiving .pio\build\esp32-usb\libfe8\libBluetoothSerial.a
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\main.cpp.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\esp32-usb\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\esp32-usb\libFrameworkArduino.a
+Linking .pio\build\esp32-usb\firmware.elf
+Retrieving maximum program size .pio\build\esp32-usb\firmware.elf
+Checking size .pio\build\esp32-usb\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   6.8% (used 22168 bytes from 327680 bytes)
+Flash: [==        ]  23.2% (used 304413 bytes from 1310720 bytes)
+Building .pio\build\esp32-usb\firmware.bin
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 10.85 seconds =========================
+
+Processing esp32-direct (platform: espressif32@6.12.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 38 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- BluetoothSerial @ 2.0.0
+|-- Wire @ 2.0.0
+Building in release mode
+Building .pio\build\esp32-direct\bootloader.bin
+Archiving .pio\build\esp32-direct\lib726\libWire.a
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Archiving .pio\build\esp32-direct\lib83d\libSPI.a
+Compiling .pio\build\esp32-direct\lib541\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\esp32-direct\lib541\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\esp32-direct\lib541\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\esp32-direct\lib541\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\esp32-direct\lib793\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\esp32-direct\libf06\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Compiling .pio\build\esp32-direct\libfe8\BluetoothSerial\BTAddress.cpp.o
+Compiling .pio\build\esp32-direct\libfe8\BluetoothSerial\BTAdvertisedDeviceSet.cpp.o
+Compiling .pio\build\esp32-direct\libfe8\BluetoothSerial\BTScanResultsSet.cpp.o
+Compiling .pio\build\esp32-direct\libfe8\BluetoothSerial\BluetoothSerial.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-bt.c.o
+Archiving .pio\build\esp32-direct\lib793\libAdafruit Unified Sensor.a
+Archiving .pio\build\esp32-direct\lib541\libAdafruit BusIO.a
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-i2c.c.o
+Archiving .pio\build\esp32-direct\libf06\libAdafruit MPU6050.a
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\main.cpp.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\esp32-direct\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\esp32-direct\libfe8\libBluetoothSerial.a
+Archiving .pio\build\esp32-direct\libFrameworkArduino.a
+Linking .pio\build\esp32-direct\firmware.elf
+Retrieving maximum program size .pio\build\esp32-direct\firmware.elf
+Checking size .pio\build\esp32-direct\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   6.8% (used 22168 bytes from 327680 bytes)
+Flash: [==        ]  23.2% (used 304413 bytes from 1310720 bytes)
+Building .pio\build\esp32-direct\firmware.bin
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 5.80 seconds =========================
+
+Processing esp32-bluetooth (platform: espressif32@6.12.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing adafruit/Adafruit MPU6050 @ 2.2.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MPU6050@2.2.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit Unified Sensor
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 38 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- BluetoothSerial @ 2.0.0
+|-- Wire @ 2.0.0
+Building in release mode
+Compiling .pio\build\esp32-bluetooth\src\main.cpp.o
+Building .pio\build\esp32-bluetooth\bootloader.bin
+Generating partitions .pio\build\esp32-bluetooth\partitions.bin
+Compiling .pio\build\esp32-bluetooth\lib726\Wire\Wire.cpp.o
+Compiling .pio\build\esp32-bluetooth\lib83d\SPI\SPI.cpp.o
+Compiling .pio\build\esp32-bluetooth\lib10a\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\esp32-bluetooth\lib10a\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\esp32-bluetooth\lib10a\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\esp32-bluetooth\lib10a\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\esp32-bluetooth\lib163\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\esp32-bluetooth\lib055\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Compiling .pio\build\esp32-bluetooth\libfe8\BluetoothSerial\BTAddress.cpp.o
+Compiling .pio\build\esp32-bluetooth\libfe8\BluetoothSerial\BTAdvertisedDeviceSet.cpp.o
+Compiling .pio\build\esp32-bluetooth\libfe8\BluetoothSerial\BTScanResultsSet.cpp.o
+Compiling .pio\build\esp32-bluetooth\libfe8\BluetoothSerial\BluetoothSerial.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\Tone.cpp.o
+Archiving .pio\build\esp32-bluetooth\lib726\libWire.a
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\USBCDC.cpp.o
+Archiving .pio\build\esp32-bluetooth\lib83d\libSPI.a
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-cpu.c.o
+Archiving .pio\build\esp32-bluetooth\lib163\libAdafruit Unified Sensor.a
+Archiving .pio\build\esp32-bluetooth\lib10a\libAdafruit BusIO.a
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-i2c.c.o
+Archiving .pio\build\esp32-bluetooth\lib055\libAdafruit MPU6050.a
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\main.cpp.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\stdlib_noniso.c.o
+Archiving .pio\build\esp32-bluetooth\libfe8\libBluetoothSerial.a
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\esp32-bluetooth\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\esp32-bluetooth\libFrameworkArduino.a
+Linking .pio\build\esp32-bluetooth\firmware.elf
+Retrieving maximum program size .pio\build\esp32-bluetooth\firmware.elf
+Checking size .pio\build\esp32-bluetooth\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  12.4% (used 40556 bytes from 327680 bytes)
+Flash: [========= ]  86.4% (used 1132089 bytes from 1310720 bytes)
+Building .pio\build\esp32-bluetooth\firmware.bin
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 27 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 13.11 seconds =========================
+
+Processing esp32-two-hands (platform: espressif32@6.12.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing adafruit/Adafruit MPU6050 @ 2.2.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MPU6050@2.2.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit Unified Sensor
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 38 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- BluetoothSerial @ 2.0.0
+|-- Wire @ 2.0.0
+Building in release mode
+Compiling .pio\build\esp32-two-hands\src\main.cpp.o
+Building .pio\build\esp32-two-hands\bootloader.bin
+Generating partitions .pio\build\esp32-two-hands\partitions.bin
+Compiling .pio\build\esp32-two-hands\lib726\Wire\Wire.cpp.o
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\esp32-two-hands\lib83d\SPI\SPI.cpp.o
+Compiling .pio\build\esp32-two-hands\lib2a5\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\esp32-two-hands\lib2a5\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\esp32-two-hands\lib2a5\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\esp32-two-hands\lib2a5\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\esp32-two-hands\libbe6\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\esp32-two-hands\lib213\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Compiling .pio\build\esp32-two-hands\libfe8\BluetoothSerial\BTAddress.cpp.o
+Compiling .pio\build\esp32-two-hands\libfe8\BluetoothSerial\BTAdvertisedDeviceSet.cpp.o
+Compiling .pio\build\esp32-two-hands\libfe8\BluetoothSerial\BTScanResultsSet.cpp.o
+Compiling .pio\build\esp32-two-hands\libfe8\BluetoothSerial\BluetoothSerial.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\MD5Builder.cpp.o
+Archiving .pio\build\esp32-two-hands\lib726\libWire.a
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\Tone.cpp.o
+Archiving .pio\build\esp32-two-hands\lib83d\libSPI.a
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-bt.c.o
+Archiving .pio\build\esp32-two-hands\lib2a5\libAdafruit BusIO.a
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-cpu.c.o
+Archiving .pio\build\esp32-two-hands\libbe6\libAdafruit Unified Sensor.a
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-i2c.c.o
+Archiving .pio\build\esp32-two-hands\lib213\libAdafruit MPU6050.a
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\main.cpp.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\esp32-two-hands\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\esp32-two-hands\libfe8\libBluetoothSerial.a
+Archiving .pio\build\esp32-two-hands\libFrameworkArduino.a
+Linking .pio\build\esp32-two-hands\firmware.elf
+Retrieving maximum program size .pio\build\esp32-two-hands\firmware.elf
+Checking size .pio\build\esp32-two-hands\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   6.8% (used 22280 bytes from 327680 bytes)
+Flash: [==        ]  23.2% (used 304721 bytes from 1310720 bytes)
+Building .pio\build\esp32-two-hands\firmware.bin
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 7.98 seconds =========================
+
+Processing esp32-audio (platform: espressif32@6.12.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing adafruit/Adafruit MPU6050 @ 2.2.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MPU6050@2.2.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit Unified Sensor
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 38 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- BluetoothSerial @ 2.0.0
+|-- Wire @ 2.0.0
+Building in release mode
+Compiling .pio\build\esp32-audio\src\main.cpp.o
+Building .pio\build\esp32-audio\bootloader.bin
+Generating partitions .pio\build\esp32-audio\partitions.bin
+Compiling .pio\build\esp32-audio\lib726\Wire\Wire.cpp.o
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\esp32-audio\lib83d\SPI\SPI.cpp.o
+Compiling .pio\build\esp32-audio\lib230\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\esp32-audio\lib230\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\esp32-audio\lib230\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\esp32-audio\lib230\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\esp32-audio\libff6\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\esp32-audio\lib6dd\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Compiling .pio\build\esp32-audio\libfe8\BluetoothSerial\BTAddress.cpp.o
+Compiling .pio\build\esp32-audio\libfe8\BluetoothSerial\BTAdvertisedDeviceSet.cpp.o
+Compiling .pio\build\esp32-audio\libfe8\BluetoothSerial\BTScanResultsSet.cpp.o
+Compiling .pio\build\esp32-audio\libfe8\BluetoothSerial\BluetoothSerial.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\Print.cpp.o
+Archiving .pio\build\esp32-audio\lib726\libWire.a
+Compiling .pio\build\esp32-audio\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\USB.cpp.o
+Archiving .pio\build\esp32-audio\lib83d\libSPI.a
+Compiling .pio\build\esp32-audio\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-cpu.c.o
+Archiving .pio\build\esp32-audio\lib230\libAdafruit BusIO.a
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-dac.c.o
+Archiving .pio\build\esp32-audio\libff6\libAdafruit Unified Sensor.a
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-i2c.c.o
+Archiving .pio\build\esp32-audio\lib6dd\libAdafruit MPU6050.a
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\main.cpp.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\esp32-audio\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\esp32-audio\libfe8\libBluetoothSerial.a
+Archiving .pio\build\esp32-audio\libFrameworkArduino.a
+Linking .pio\build\esp32-audio\firmware.elf
+Retrieving maximum program size .pio\build\esp32-audio\firmware.elf
+Checking size .pio\build\esp32-audio\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   6.8% (used 22248 bytes from 327680 bytes)
+Flash: [==        ]  23.2% (used 304705 bytes from 1310720 bytes)
+Building .pio\build\esp32-audio\firmware.bin
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 8.07 seconds =========================
+
+Processing nano-usb (platform: atmelavr@5.1.0; board: nanoatmega328; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/nanoatmega328.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Nano ATmega328
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 30KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 10 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- SoftwareSerial @ 1.0
+|-- Wire @ 1.0
+Building in release mode
+Checking size .pio\build\nano-usb\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [===       ]  32.9% (used 673 bytes from 2048 bytes)
+Flash: [=====     ]  46.3% (used 14212 bytes from 30720 bytes)
+========================= [SUCCESS] Took 0.68 seconds =========================
+
+Processing nano-bluetooth (platform: atmelavr@5.1.0; board: nanoatmega328; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing adafruit/Adafruit MPU6050 @ 2.2.6
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit MPU6050@2.2.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit BusIO
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit BusIO@1.17.4 has been installed!
+Library Manager: Installing Adafruit Unified Sensor
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70%
+Library Manager: Adafruit Unified Sensor@1.1.15 has been installed!
+Library Manager: Installing Adafruit GFX Library
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit GFX Library@1.12.6 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing Adafruit SSD1306
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Adafruit SSD1306@2.5.17 has been installed!
+Library Manager: Resolving dependencies...
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/nanoatmega328.html
+PLATFORM: Atmel AVR (5.1.0) > Arduino Nano ATmega328
+HARDWARE: ATMEGA328P 16MHz, 2KB RAM, 30KB Flash
+DEBUG: Current (avr-stub) External (avr-stub, simavr)
+PACKAGES: 
+ - framework-arduino-avr @ 5.2.0 
+ - toolchain-atmelavr @ 1.70300.191015 (7.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 10 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Adafruit BusIO @ 1.17.4
+|-- Adafruit Unified Sensor @ 1.1.15
+|-- SoftwareSerial @ 1.0
+|-- Wire @ 1.0
+Building in release mode
+Compiling .pio\build\nano-bluetooth\src\main.cpp.o
+Compiling .pio\build\nano-bluetooth\lib765\Wire\Wire.cpp.o
+Compiling .pio\build\nano-bluetooth\lib765\Wire\utility\twi.c.o
+Compiling .pio\build\nano-bluetooth\lib9e6\SPI\SPI.cpp.o
+Compiling .pio\build\nano-bluetooth\libbcb\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\nano-bluetooth\libbcb\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\nano-bluetooth\libbcb\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\nano-bluetooth\libbcb\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\nano-bluetooth\lib794\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\nano-bluetooth\lib4c7\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Compiling .pio\build\nano-bluetooth\lib95d\SoftwareSerial\SoftwareSerial.cpp.o
+Archiving .pio\build\nano-bluetooth\libFrameworkArduinoVariant.a
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\CDC.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\HardwareSerial0.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\HardwareSerial1.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\HardwareSerial2.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\HardwareSerial3.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\PluggableUSB.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\USBCore.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\WInterrupts.c.o
+Archiving .pio\build\nano-bluetooth\lib765\libWire.a
+Archiving .pio\build\nano-bluetooth\lib9e6\libSPI.a
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\abi.cpp.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\hooks.c.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\main.cpp.o
+Archiving .pio\build\nano-bluetooth\lib794\libAdafruit Unified Sensor.a
+Archiving .pio\build\nano-bluetooth\libbcb\libAdafruit BusIO.a
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\new.cpp.o
+Archiving .pio\build\nano-bluetooth\lib95d\libSoftwareSerial.a
+Archiving .pio\build\nano-bluetooth\lib4c7\libAdafruit MPU6050.a
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\wiring.c.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\wiring_analog.c.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\wiring_digital.c.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\wiring_pulse.S.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\nano-bluetooth\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\nano-bluetooth\libFrameworkArduino.a
+Linking .pio\build\nano-bluetooth\firmware.elf
+Checking size .pio\build\nano-bluetooth\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [====      ]  40.6% (used 832 bytes from 2048 bytes)
+Flash: [=====     ]  51.5% (used 15812 bytes from 30720 bytes)
+Building .pio\build\nano-bluetooth\firmware.hex
+========================= [SUCCESS] Took 3.99 seconds =========================
+
+Environment      Status    Duration
+---------------  --------  ------------
+esp32-usb        SUCCESS   00:00:10.846
+esp32-direct     SUCCESS   00:00:05.804
+esp32-bluetooth  SUCCESS   00:00:13.112
+esp32-two-hands  SUCCESS   00:00:07.982
+esp32-audio      SUCCESS   00:00:08.069
+nano-usb         SUCCESS   00:00:00.676
+nano-bluetooth   SUCCESS   00:00:03.991
+========================= 7 succeeded in 00:00:50.479 =========================

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "source": "synthetic",
+  "claim": "Software integration verification only; no physical glove accuracy",
+  "sample_count": 2160,
+  "events": [
+    "OPEN_PALM",
+    "FIST",
+    "THUMB_UP",
+    "INDEX_UP",
+    "V_SHAPE",
+    "THREE_FINGERS",
+    "LITTLE_UP",
+    "THUMB_LITTLE"
+  ],
+  "group_overlap": false
+}

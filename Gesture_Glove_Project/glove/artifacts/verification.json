@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-03",
+  "project": "Group 39 gesture-to-speech glove",
+  "software_tests": {"status": "passed", "count": 38, "native_gui_controller_tests": 4, "evidence": "unit_tests.log"},
+  "firmware": {
+    "status": "compiled",
+    "environments": ["esp32-direct", "esp32-usb", "esp32-bluetooth", "esp32-two-hands", "esp32-audio", "nano-usb", "nano-bluetooth"],
+    "evidence": "firmware_build.log",
+    "uploaded": false
+  },
+  "portable_windows_app": {
+    "status": "passed",
+    "exit_code": 0,
+    "checks": ["synthetic dataset generation", "grouped model training", "model reload", "eight expected gesture events", "disjoint evaluation groups", "native Tk recognition", "English waveform", "Hindi waveform"],
+    "evidence": "portable_full_check/",
+    "requires_python_installation_to_run": false
+  },
+  "speech": {"status": "valid nonempty PCM waveforms", "phrase_checks": 16, "languages": ["English", "Hindi"], "evidence": "speech/waveform_checks.json", "audibility_and_human_pronunciation_review": "not verified"},
+  "manual": {"editable_docx": true, "pdf_pages": 17, "rendered_with": "Microsoft Word", "visual_review": "all PDF pages inspected after rasterization; changed pages rechecked", "libreoffice_renderer": "unavailable on this host"},
+  "scope": "One glove, eight team-defined static gesture messages plus REST; not validated ISL or ASL translation",
+  "synthetic_model_results": "Software integration evidence only; no physical glove accuracy claim",
+  "hardware_owned_as_reported": ["ESP32 (exact variant unknown)", "MPU6050", "module reported as TP4065 (unidentified)"],
+  "pending_physical_work": ["identify board and battery module", "acquire/mount five bend sensors and dividers", "meter-check wiring", "upload firmware", "verify real sensor channels", "wearer calibration", "collect independently grouped real recordings", "train real model and measure held-out performance", "unknown/idle/fault/latency trials", "review speaker output", "test any Bluetooth, DFPlayer, battery and enclosure options"],
+  "preserved_camera_work": "Independent existing CV alphabet experiment; no automatic glove fallback"
+}

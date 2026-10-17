@@ -1,0 +1,8 @@
+-r requirements.txt
+pyinstaller==6.20.0
+platformio==6.1.18
+intelhex==2.3.0
+cryptography==46.0.5
+ecdsa==0.19.1
+bitstring==4.3.1
+reedsolo==1.7.0

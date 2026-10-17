@@ -1,0 +1,139 @@
+81 INFO: PyInstaller: 6.20.0, contrib hooks: 2026.8
+81 INFO: Python: 3.12.14
+111 INFO: Platform: Windows-11-10.0.26200-SP0
+111 INFO: Python environment: D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\.venv
+111 INFO: wrote build\GloveStudio.spec
+97 WARNING: Failed to collect submodules for 'scipy._external.array_api_compat.torch' because importing 'scipy._external.array_api_compat.torch' raised: ModuleNotFoundError: No module named 'torch'
+602 WARNING: Failed to collect submodules for 'sklearn.externals.array_api_compat.torch' because importing 'sklearn.externals.array_api_compat.torch' raised: ModuleNotFoundError: No module named 'torch'
+2678 INFO: Module search paths (PYTHONPATH):
+['D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove',
+ 'C:\\Users\\Tarun '
+ 'Padmanabhan\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.zip',
+ 'C:\\Users\\Tarun '
+ 'Padmanabhan\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs',
+ 'C:\\Users\\Tarun '
+ 'Padmanabhan\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib',
+ 'C:\\Users\\Tarun '
+ 'Padmanabhan\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python',
+ 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv',
+ 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design '
+ 'Project\\glove\\.venv\\Lib\\site-packages',
+ 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove']
+2978 INFO: Appending 'datas' from .spec
+2987 INFO: checking Analysis
+3004 INFO: Building because hiddenimports changed
+3004 INFO: Looking for Python shared library...
+3004 INFO: Using Python shared library: C:\Users\Tarun Padmanabhan\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python312.dll
+3004 INFO: Running Analysis Analysis-00.toc
+3004 INFO: Target bytecode optimization level: 0
+3004 INFO: Initializing module dependency graph...
+3004 INFO: Initializing module graph hook caches...
+3020 INFO: Analyzing modules for base_library.zip ...
+3785 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5626 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6263 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6634 INFO: Caching module dependency graph...
+6665 INFO: Analyzing D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\app.py
+6721 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+6721 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+6967 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7033 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7099 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7269 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7414 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7786 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8185 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9003 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9925 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+9925 INFO: SetuptoolsInfo: initializing cached setuptools info...
+10836 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11298 INFO: Processing standard module hook 'hook-sklearn.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11753 INFO: Processing standard module hook 'hook-sklearn.utils.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11809 INFO: Processing standard module hook 'hook-scipy.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12338 INFO: Processing standard module hook 'hook-pycparser.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+12465 INFO: Processing standard module hook 'hook-setuptools.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12481 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12506 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12506 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+12522 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12522 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+12607 INFO: Processing standard module hook 'hook-_osx_support.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12623 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12830 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12830 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12840 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12840 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+13250 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+13250 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+13705 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+13705 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+14590 INFO: Processing standard module hook 'hook-scipy.linalg.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+14710 INFO: Processing standard module hook 'hook-scipy.special._ufuncs.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15882 INFO: Processing standard module hook 'hook-scipy.spatial._ckdtree.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16498 INFO: Processing standard module hook 'hook-scipy.spatial.transform.rotation.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17323 INFO: Processing standard module hook 'hook-scipy.stats._stats.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17664 INFO: Processing standard module hook 'hook-scipy.sparse.csgraph.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+18302 INFO: Processing standard module hook 'hook-scipy.special._ellip_harm_2.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+18695 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.numpy.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+18738 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.cupy.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+18743 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.torch.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+18766 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.dask.array.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+18884 INFO: Processing standard module hook 'hook-sklearn.metrics.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20565 INFO: Processing standard module hook 'hook-sklearn.metrics.cluster.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20688 INFO: Processing standard module hook 'hook-sklearn.cluster.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20753 INFO: Processing standard module hook 'hook-sklearn.metrics.pairwise.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20978 INFO: Processing standard module hook 'hook-sklearn.neighbors.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+21057 INFO: Processing standard module hook 'hook-sklearn.linear_model.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+22039 INFO: Processing standard module hook 'hook-sklearn.tree.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+22278 INFO: Analyzing hidden import 'scipy._external.array_api_compat.common._fft'
+22290 INFO: Analyzing hidden import 'scipy._external.array_api_compat.numpy.fft'
+22293 INFO: Analyzing hidden import 'scipy._external.array_api_extra._lib._backends'
+22293 INFO: Analyzing hidden import 'scipy._external.array_api_extra._lib._testing'
+22296 INFO: Analyzing hidden import 'sklearn.externals.array_api_compat.common._fft'
+22304 INFO: Analyzing hidden import 'sklearn.externals.array_api_compat.numpy.fft'
+22304 INFO: Processing module hooks (post-graph stage)...
+22304 WARNING: Hidden import "pycparser.lextab" not found!
+22304 WARNING: Hidden import "pycparser.yacctab" not found!
+22330 WARNING: Hidden import "scipy._lib.array_api_compat.numpy.fft" not found!
+22338 WARNING: Hidden import "scipy.special._cdflib" not found!
+22390 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+22411 INFO: Performing binary vs. data reclassification (1707 entries)
+22554 INFO: Looking for ctypes DLLs
+22570 WARNING: Ignoring /System/Library/Frameworks/IOKit.framework/IOKit imported from D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\.venv\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+22570 WARNING: Ignoring /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation imported from D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\.venv\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+22678 INFO: Analyzing run-time hooks ...
+22682 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+22692 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+22692 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+22697 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+22697 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+22761 INFO: Creating base_library.zip...
+22778 INFO: Looking for dynamic libraries
+23778 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\numpy.libs', 'D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\.venv\\Lib\\site-packages\\scipy.libs']
+23778 INFO: Extra DLL search directories (PATH): []
+25525 INFO: Warnings written to D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\build\GloveStudio\warn-GloveStudio.txt
+25647 INFO: Graph cross-reference written to D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\build\GloveStudio\xref-GloveStudio.html
+25767 INFO: checking PYZ
+25767 INFO: Building because toc changed
+25767 INFO: Building PYZ (ZlibArchive) D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\build\GloveStudio\PYZ-00.pyz
+26988 INFO: Building PYZ (ZlibArchive) D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\build\GloveStudio\PYZ-00.pyz completed successfully.
+27020 INFO: checking PKG
+27020 INFO: Building because D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\build\GloveStudio\PYZ-00.pyz changed
+27020 INFO: Building PKG (CArchive) GloveStudio.pkg
+27074 INFO: Building PKG (CArchive) GloveStudio.pkg completed successfully.
+27076 INFO: Bootloader D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+27076 INFO: checking EXE
+27100 INFO: Rebuilding EXE-00.toc because pkg is more recent
+27100 INFO: Building EXE from EXE-00.toc
+27100 INFO: Copying bootloader EXE to D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\build\GloveStudio\GloveStudio.exe
+27245 INFO: Copying icon to EXE
+27349 INFO: Copying 0 resources to EXE
+27349 INFO: Embedding manifest in EXE
+27450 INFO: Appending PKG archive to EXE
+27609 INFO: Fixing EXE headers
+29479 INFO: Building EXE from EXE-00.toc completed successfully.
+29495 INFO: checking COLLECT
+29558 INFO: Removing dir D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\release\GloveStudio
+29678 INFO: Building COLLECT COLLECT-00.toc
+31228 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+31257 INFO: Build complete! The results are available in: D:\Tarun\IITPKD\Eng. Design\Eng. Design Project\glove\release

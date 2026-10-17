@@ -1,0 +1,1 @@
+utc,experiment,participant,session,firmware_environment,firmware_sha256,model_sha256,calibration_id,expected_label,observed_label,confidence,text_latency_ms,audible_latency_ms,false_events,duration_seconds,pass_fail,notes

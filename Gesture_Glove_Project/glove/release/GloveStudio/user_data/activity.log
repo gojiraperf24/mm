@@ -1,0 +1,4 @@
+19:36:21  Ready. Start simulator to explore, or connect your ESP32 to collect real data.
+19:36:33  Ready. Start simulator to explore, or connect your ESP32 to collect real data.
+19:36:33  Simulator started. Choose a pose in Live recognition to exercise filtering and speech-event logic.
+19:36:41  THUMB_UP -> Thank you. Event debounced; a held gesture will not repeat automatically.

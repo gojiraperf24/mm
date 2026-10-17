@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "description": "Team-defined engineering gestures and arbitrary demo word mappings. These are not verified ISL or ASL signs. REST is a relaxed hand, distinct from open palm.",
+  "labels": {
+    "REST": {"pose": "Relaxed fingers with moderate natural bend; do not form a target pose", "en": "", "hi": "", "track": 0},
+    "OPEN_PALM": {"pose": "All five fingers extended", "en": "Hello", "hi": "नमस्ते", "track": 1},
+    "FIST": {"pose": "All five fingers bent comfortably", "en": "Yes", "hi": "हाँ", "track": 2},
+    "THUMB_UP": {"pose": "Thumb extended and other four fingers bent", "en": "Thank you", "hi": "धन्यवाद", "track": 3},
+    "INDEX_UP": {"pose": "Index extended and other fingers bent", "en": "Water", "hi": "पानी", "track": 4},
+    "V_SHAPE": {"pose": "Index and middle extended; remaining fingers bent", "en": "Help", "hi": "मदद", "track": 5},
+    "THREE_FINGERS": {"pose": "Index, middle and ring extended; thumb and little bent", "en": "Food", "hi": "खाना", "track": 6},
+    "LITTLE_UP": {"pose": "Little finger extended; other fingers bent", "en": "No", "hi": "नहीं", "track": 7},
+    "THUMB_LITTLE": {"pose": "Thumb and little extended; other fingers bent", "en": "Goodbye", "hi": "अलविदा", "track": 8}
+  }
+}

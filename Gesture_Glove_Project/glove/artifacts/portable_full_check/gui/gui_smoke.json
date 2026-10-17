@@ -1,0 +1,9 @@
+{
+  "events": [
+    "OPEN_PALM",
+    "FIST",
+    "INDEX_UP"
+  ],
+  "final": "INDEX_UP",
+  "synthetic": true
+}

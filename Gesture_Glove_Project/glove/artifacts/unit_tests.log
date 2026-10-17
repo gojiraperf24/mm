@@ -1,0 +1,43 @@
+test_calibration_buttons_capture_and_save (test_gui_workflow.GuiWorkflowTests.test_calibration_buttons_capture_and_save) ... ok
+test_disconnect_drops_synthetic_model_and_calibration (test_gui_workflow.GuiWorkflowTests.test_disconnect_drops_synthetic_model_and_calibration) ... ok
+test_fault_clears_display_and_features (test_gui_workflow.GuiWorkflowTests.test_fault_clears_display_and_features) ... ok
+test_real_record_button_writes_fixed_label_and_burst (test_gui_workflow.GuiWorkflowTests.test_real_record_button_writes_fixed_label_and_burst) ... ok
+test_bad_span (test_system.CalibrationTests.test_bad_span) ... ok
+test_decreasing_voltage (test_system.CalibrationTests.test_decreasing_voltage) ... ok
+test_disconnected_flex_rail (test_system.CalibrationTests.test_disconnected_flex_rail) ... ok
+test_endpoint_capture (test_system.CalibrationTests.test_endpoint_capture) ... ok
+test_increasing_voltage (test_system.CalibrationTests.test_increasing_voltage) ... ok
+test_moving_wrist (test_system.CalibrationTests.test_moving_wrist) ... ok
+test_reject_short_capture (test_system.CalibrationTests.test_reject_short_capture) ... ok
+test_save_reload_id (test_system.CalibrationTests.test_save_reload_id) ... ok
+test_wrong_layout (test_system.CalibrationTests.test_wrong_layout) ... ok
+test_zero_acceleration (test_system.CalibrationTests.test_zero_acceleration) ... ok
+test_metadata_roundtrip (test_system.DatasetTests.test_metadata_roundtrip) ... ok
+test_no_mixed_sources (test_system.DatasetTests.test_no_mixed_sources) ... ok
+test_participant_mismatch (test_system.DatasetTests.test_participant_mismatch) ... ok
+test_partition_groups_disjoint (test_system.DatasetTests.test_partition_groups_disjoint) ... ok
+test_synthetic_training_requires_opt_in (test_system.DatasetTests.test_synthetic_training_requires_opt_in) ... ok
+test_vocabulary_change_rejected (test_system.DatasetTests.test_vocabulary_change_rejected) ... ok
+test_candidate_change_clears_stable (test_system.GateTests.test_candidate_change_clears_stable) ... ok
+test_different_pose_can_speak (test_system.GateTests.test_different_pose_can_speak) ... ok
+test_fault_does_not_repeat (test_system.GateTests.test_fault_does_not_repeat) ... ok
+test_gap_resets_debounce (test_system.GateTests.test_gap_resets_debounce) ... ok
+test_hold_speaks_once (test_system.GateTests.test_hold_speaks_once) ... ok
+test_rest_rearms (test_system.GateTests.test_rest_rearms) ... ok
+test_short_rest_does_not_rearm (test_system.GateTests.test_short_rest_does_not_rearm) ... ok
+test_uncertain_never_speaks (test_system.GateTests.test_uncertain_never_speaks) ... ok
+test_bad_mask (test_system.PacketTests.test_bad_mask) ... ok
+test_bad_shape (test_system.PacketTests.test_bad_shape) ... ok
+test_guard_counter_rollover (test_system.PacketTests.test_guard_counter_rollover) ... ok
+test_guard_duplicate_and_reset (test_system.PacketTests.test_guard_duplicate_and_reset) ... ok
+test_invalid_wire_units (test_system.PacketTests.test_invalid_wire_units) ... ok
+test_nan (test_system.PacketTests.test_nan) ... ok
+test_round_trip (test_system.PacketTests.test_round_trip) ... ok
+test_two_hands (test_system.PacketTests.test_two_hands) ... ok
+test_uint32_bounds (test_system.PacketTests.test_uint32_bounds) ... ok
+test_actual_reader_loopback_and_corruption (test_system.SerialTests.test_actual_reader_loopback_and_corruption) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.790s
+
+OK

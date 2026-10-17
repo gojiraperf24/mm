@@ -1,0 +1,162 @@
+[
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0001.wav",
+    "frames": 19370,
+    "sample_rate": 22050,
+    "duration_seconds": 0.8784580498866214,
+    "label": "OPEN_PALM",
+    "phrase": "Hello"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0101.wav",
+    "frames": 20141,
+    "sample_rate": 22050,
+    "duration_seconds": 0.9134240362811792,
+    "label": "OPEN_PALM",
+    "phrase": "नमस्ते"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0002.wav",
+    "frames": 17688,
+    "sample_rate": 22050,
+    "duration_seconds": 0.8021768707482994,
+    "label": "FIST",
+    "phrase": "Yes"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0102.wav",
+    "frames": 14835,
+    "sample_rate": 22050,
+    "duration_seconds": 0.6727891156462585,
+    "label": "FIST",
+    "phrase": "हाँ"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0003.wav",
+    "frames": 22419,
+    "sample_rate": 22050,
+    "duration_seconds": 1.016734693877551,
+    "label": "THUMB_UP",
+    "phrase": "Thank you"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0103.wav",
+    "frames": 24007,
+    "sample_rate": 22050,
+    "duration_seconds": 1.0887528344671202,
+    "label": "THUMB_UP",
+    "phrase": "धन्यवाद"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0004.wav",
+    "frames": 18358,
+    "sample_rate": 22050,
+    "duration_seconds": 0.832562358276644,
+    "label": "INDEX_UP",
+    "phrase": "Water"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0104.wav",
+    "frames": 17445,
+    "sample_rate": 22050,
+    "duration_seconds": 0.791156462585034,
+    "label": "INDEX_UP",
+    "phrase": "पानी"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0005.wav",
+    "frames": 19416,
+    "sample_rate": 22050,
+    "duration_seconds": 0.8805442176870748,
+    "label": "V_SHAPE",
+    "phrase": "Help"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0105.wav",
+    "frames": 17642,
+    "sample_rate": 22050,
+    "duration_seconds": 0.8000907029478458,
+    "label": "V_SHAPE",
+    "phrase": "मदद"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0006.wav",
+    "frames": 17664,
+    "sample_rate": 22050,
+    "duration_seconds": 0.8010884353741496,
+    "label": "THREE_FINGERS",
+    "phrase": "Food"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0106.wav",
+    "frames": 18406,
+    "sample_rate": 22050,
+    "duration_seconds": 0.8347392290249434,
+    "label": "THREE_FINGERS",
+    "phrase": "खाना"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0007.wav",
+    "frames": 17201,
+    "sample_rate": 22050,
+    "duration_seconds": 0.7800907029478458,
+    "label": "LITTLE_UP",
+    "phrase": "No"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0107.wav",
+    "frames": 16565,
+    "sample_rate": 22050,
+    "duration_seconds": 0.7512471655328798,
+    "label": "LITTLE_UP",
+    "phrase": "नहीं"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "en",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\en\\0008.wav",
+    "frames": 21401,
+    "sample_rate": 22050,
+    "duration_seconds": 0.9705668934240362,
+    "label": "THUMB_LITTLE",
+    "phrase": "Goodbye"
+  },
+  {
+    "engine": "eSpeak NG 1.52.0",
+    "language": "hi",
+    "path": "D:\\Tarun\\IITPKD\\Eng. Design\\Eng. Design Project\\glove\\artifacts\\speech\\hi\\0108.wav",
+    "frames": 19490,
+    "sample_rate": 22050,
+    "duration_seconds": 0.8839002267573696,
+    "label": "THUMB_LITTLE",
+    "phrase": "अलविदा"
+  }
+]
